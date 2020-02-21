@@ -1,0 +1,23 @@
+
+** significa igual.
+
+Tipo					Bytes			Rango
+
+char					1byte			-127 a 127 (0 a 255)
+unsigned char			1byte			0 a 255
+signed char				1byte			-127 a 127
+int						4bytes			-2147483648 a 2147483647
+unsigned int			4bytes			0 a 4294967205
+signed int				4bytes			-2147483648 a 2147483647
+short int				2bytes			-32768 a 32767
+unsigned short int		2bytes			0 a 65535
+signed short int		2byres			** short int
+long int				4bytes			-2,147,483,647 a 2,147,483,647
+signed long int			4bytes			** int
+unsigned long int		4bytes		
+float					4bytes
+double					8byess
+long double				8bytes
+wchat_t 				2, 4 bytes
+
+Usar sizeof() para sacar el tamaño en bytes de cada tipo de variable.
