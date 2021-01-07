@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <string.h>
 
 #define EOL     '\n'
-
 
 using namespace std;
 
