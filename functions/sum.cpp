@@ -28,6 +28,4 @@ int main(){
     ex_num(temp);
     return 0;
 }
-=======
-wtf?
->>>>>>> b696dc2c23513286373d9b4574388f6d4bbad125
+
