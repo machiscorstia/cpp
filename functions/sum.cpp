@@ -1,30 +1,29 @@
-var express = require('express');
-var router = express.Router();
-const User = require('../models/user');
+#include <iostream>
+#include <string.h>
 
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+#define EOL     '\n'
 
-router.get('/login', function(req, res, next) {
-  res.render('user/login');
-});
 
-router.get('/register', function(req, res, next) {
-  res.render('user/register');
-});
+using namespace std;
 
-router.post('/register', async function(req, res, next) {
-  console.log(req.body)
-  const {username, password, email, country, gender} = req.body
-  const newuser = new User({
-    username, password, email, country, gender
-  })
-  await newuser.save()
-  console.log(newuser)
-  res.send({
-    status : true
-  });
-});
+int ex_num(string str = 0){
+    int i = -1;
+    while(i++ < str.size()){
+        cout << str[i];
+    };
+    return 0;
+}
 
-module.exports = router;
+int sum(string str){
+    int total = 0;
+    return total;
+}
+
+int main(){
+    string temp;
+    cout << "Ejemplo: 1+2-3" << endl;
+    cout << "Introduce la operacion: ";
+    cin >> temp;
+    ex_num(temp);
+    return 0;
+}
