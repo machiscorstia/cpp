@@ -22,7 +22,7 @@ int main(){
     string temp;
     cout << "Ejemplo: 1+2-3" << endl;
     cout << "Introduce la operacion: ";
-    cin >> temp;
+    //cin >> temp;
     ex_num(temp);
     return 0;
 }
