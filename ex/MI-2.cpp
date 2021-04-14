@@ -4,16 +4,13 @@
 using namespace std;
 
 int main(){
-    int data[3] = {0, 0, 0};
-    string fecha;
+    int day = 0, month = 0, year = 0, date = 0;
+    cin >> day >> month >> year;
 
-    for(int i = 0; i < size(data); i++){
-        cin >> data[i];
-        fecha += to_string(data[i]);
-    }
+    date += (year * 10000) + (month * 100) + day;
+
+    cout << date;
     
-    cout << fecha << endl;
-
     return 1;
 }
 
