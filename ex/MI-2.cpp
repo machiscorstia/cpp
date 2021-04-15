@@ -3,18 +3,12 @@
 using namespace std;
 
 int main(){
-    int num = 0, resto = 0;
-    float quinta = 0, septima = 0;
+    int day = 0, month = 0, year = 0, date = 0;
+    cin >> day >> month >> year;
 
-    cin >> num;
+    date += (year * 10000) + (month * 100) + day;
+
+    cout << date;
     
-    quinta = float(num) / 5;
-    resto = num % 5;
-    septima = quinta / 5;
-
-    cout << quinta << endl;
-    cout << resto << endl;
-    cout << septima << endl;
-
-    return 0;
-};
+    return 1;
+}
